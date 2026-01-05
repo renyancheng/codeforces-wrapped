@@ -307,8 +307,8 @@ const App: React.FC = () => {
             
             {/* Codeforces Official Logo */}
             <img
-              src="/favicon.ico"
-              alt="Codeforces"
+              src="https://s2.loli.net/2026/01/05/wxaIFib5ujMoq7K.png"
+              alt="Codeforces Wrapped"
               className="home-logo-img"
             />
             <h1 className="home-title">{strings.appTitle}</h1>

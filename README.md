@@ -1,20 +1,48 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Codeforces Wrapped
 
-# Run and deploy your AI Studio app
+<p align="center">
+  <img src="https://s2.loli.net/2026/01/05/wxaIFib5ujMoq7K.png" alt="Codeforces Wrapped" width="200">
+</p>
 
-This contains everything you need to run your app locally.
+生成你的 Codeforces 年度报告 - 用精美的动画和统计数据展示你的编程之旅。
 
-View your app in AI Studio: https://ai.studio/apps/drive/1TkW8dg27w0SjjiqbJpqy4cL44jYVRJT3
+## 功能特性
 
-## Run Locally
+- 📊 为任意 Codeforces 用户生成个性化年度报告
+- 🗓️ 活跃热力图展示每日提交情况
+- 📈 Rating 变化趋势图
+- 🧩 解题统计与难度分布
+- 💻 编程语言使用分布
+- 🏅 根据活跃度获得成就勋章
+- 📤 可分享的总结卡片
+- 🌐 中英文双语支持
 
-**Prerequisites:**  Node.js
+## 在线体验
 
+访问：[https://cf.ryc.icu](https://cf.ryc.icu)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 技术栈
+
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- Recharts
+- Framer Motion
+
+## 本地开发
+
+```bash
+# 安装依赖
+pnpm install
+
+# 启动开发服务器
+pnpm dev
+
+# 构建生产版本
+pnpm build
+```
+
+## 开源协议
+
+MIT
