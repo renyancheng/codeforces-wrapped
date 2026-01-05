@@ -19,8 +19,7 @@
 
 ## 在线体验
 
-访问：[https://codeforces-wrapped-7nss3stx-renyancheng.ipfs.4everland.app/](https://codeforces-wrapped-7nss3stx-renyancheng.ipfs.4everland.app/)
-
+访问：[https://codeforces-wrapped-58b0.ipfs.4everland.app/](https://codeforces-wrapped-58b0.ipfs.4everland.app/)
 ## 技术栈
 
 - React 19
