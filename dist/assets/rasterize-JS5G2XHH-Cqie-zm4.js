@@ -1,0 +1,1 @@
+import{toCanvas as r}from"./toCanvas-CMz14LbK.js";import"./index-DPWsQBuw.js";async function d(i,t){let a=await r(i,t),e=new Image;return e.src=a.toDataURL(`image/${t.format}`,t.quality),await e.decode(),e.style.width=`${a.width/t.dpr}px`,e.style.height=`${a.height/t.dpr}px`,e}export{d as rasterize};
