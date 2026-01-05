@@ -1,6 +1,7 @@
 import React, { useState, useRef, useMemo, useEffect, useCallback } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMedal, faCalendarAlt, faTrophy, faChartBar, faChartLine, faCrown, faSync } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { fetchUserInfo, fetchUserSubmissions, fetchUserRatingHistory, processYearData, getAvailableYears, getYearSummary, YearSummary } from './services/cfService';
 import { getCachedData, setCachedData, clearCache } from './services/cacheService';
 import { parseRoute, navigateTo, replaceTo } from './services/routerService';
@@ -294,6 +295,14 @@ const App: React.FC = () => {
             <div className="blob blob-3"></div>
           </div>
           <div className="home-page">
+            <a
+              href="https://github.com/renyancheng/codeforces-wrapped"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="github-link"
+            >
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
             <LanguageSwitch lang={lang} onChange={setLang} />
             
             {/* Codeforces Official Logo */}
