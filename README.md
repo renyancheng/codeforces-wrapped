@@ -1,10 +1,14 @@
+<div align="center">
+
 # Codeforces Wrapped
 
-<p align="center">
-  <img src="https://s2.loli.net/2026/01/05/wxaIFib5ujMoq7K.png" alt="Codeforces Wrapped" width="200">
-</p>
+![codeforces-wrapped](https://socialify.git.ci/renyancheng/codeforces-wrapped/image?custom_language=React&description=1&forks=1&issues=1&language=1&logo=https%3A%2F%2Fs2.loli.net%2F2026%2F01%2F05%2FwxaIFib5ujMoq7K.png&name=1&owner=1&pulls=1&stargazers=1&theme=Light)
 
-生成你的 Codeforces 年度报告 - 用精美的动画和统计数据展示你的编程之旅。
+</div>
+
+## 简介
+
+生成你的 Codeforces 年度报告 - 用精美的动画和统计数据展示你的年度算法竞赛之旅。
 
 ## 功能特性
 
